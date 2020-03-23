@@ -5,3 +5,181 @@
 	height: 35px;
 	background: white;
 }
+body{
+	background: azure;
+}
+
+
+h1 {
+	position: relative;
+	font-size: 30px;
+	z-index: 1;
+	overflow: hidden;
+	text-align: center;
+}
+h1:before, h1:after {
+	position: absolute;
+	top: 51%;
+	overflow: hidden;
+	width: 50%;
+	height: 6px;
+	content: '\a0';
+	background-color: black;
+}
+h1:before {
+	margin-left: -50%;
+	text-align: right;
+}
+.color {
+	background-color: #ccc;
+}
+#par1{
+	font-size: 30px;
+	color: darkcyan;
+	margin-right: 2.9%;
+	margin-left: 2.9%;
+}
+#bigM{
+	font-size: 65px;
+}
+#Pics{
+	margin-left: 8%;
+
+}
+/*ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkgreen;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 8px;
+	text-decoration: none;
+}
+
+!* Change the link color to #111 (black) on hover *!
+li a:hover {
+	background-color: darkgreen;
+}*/
+
+
+.menu-area li a {
+	text-decoration: none;
+}
+
+.menu-area li {
+	list-style-type: none;
+}
+
+.menu{
+	padding-top: 25px;
+}
+
+nav {
+	position: relative;
+	width: calc(100% - 50px);
+	margin: 0 auto;
+	padding: 0.25px 0;
+	background: darkcyan;
+	z-index: 1;
+	text-align: right;
+	padding-right: 2%;
+}
+
+.logo {
+	width: 15%;
+	float: left;
+	color: #fff;
+	font-size: 25px;
+	text-align: left;
+	padding-left: 2%;
+}
+
+.menu-area li {
+	display: inline-block;
+}
+
+.menu-area a {
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+	display: block;
+	padding: 0 25px;
+	font-size: 20px;
+	line-height: 30px;
+	position: relative;
+	z-index: 1;
+}
+.menu-area a:hover {
+	background: black;
+	color: #fff;
+	border-radius: 50%;
+}
+
+.menu-area a:hover:after {
+	transform: translateY(-50%) rotate(-35deg);
+}
+
+nav:before {
+	position: absolute;
+	content: '';
+	border-top: 10px solid darkcyan;
+	border-right: 10px solid darkcyan;
+	border-left: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	top: 100%;
+	left: 0;
+}
+
+nav:after {
+	position: absolute;
+	content: '';
+	border-top: 10px solid darkcyan;
+	border-left: 10px solid darkcyan;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	top: 100%;
+	right: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.Qst{
+	margin-right: 1.5%;
+	text-align: right;
+	font-size: 20px;
+}
+
+.Ans{
+	margin-right: 2.9%;
+	margin-left: 2.9%;
+	text-align: right;
+	font-size: 20px;
+}
+
+img{
+	border-radius: 30%;
+	/*padding-right: 30px;*/
+	padding:1px;
+	border:1px solid #021a40;
+}
+
+img:hover {
+	background: darkgreen;
+	color: #fff;
+}
+
+
+
+
