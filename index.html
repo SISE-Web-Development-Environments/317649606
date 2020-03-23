@@ -4,7 +4,8 @@
  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
 
 
 <div id="menu">
@@ -44,10 +45,10 @@
  <h1 >My Photos</h1>
  <h3 align="center" style="font-size: 30px;">Here you can see places I have traveled to</h3>
  <div id="Pics">
-  <img src=Pic1.jpeg width=300 height=250 />
-  <img src=Pic2.jpg width=300 height=250 />
-  <img src=Pic3.jpg width=300 height=250 />
-  <img src=Pic4.jpg width=300 height=250 />
+  <img class="Pictures" src=Pic1.jpeg width=300 height=250 />
+  <img class="Pictures" src=Pic2.jpg width=300 height=250 />
+  <img class="Pictures" src=Pic3.jpg width=300 height=250 />
+  <img class="Pictures" src=Pic4.jpg width=300 height=250 />
  </div>
 </section>
 
@@ -66,6 +67,9 @@
  <br/>
  <br/>
  <h1 >Like</h1>
+ <center>
+  <div  class="fb-like" data-href="https://sise-web-development-environments.github.io/assignment1-maxim-ai/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+ </center>
 </section>
 
 <section id="qrcoder" class="section">
@@ -73,6 +77,9 @@
  <br/>
  <br/>
  <h1 >QR Code</h1>
+ <div align="center">
+  <img src="‏‏QRcode.PNG"/>
+ </div>
 </section>
 
 <section id="spa" class="section">

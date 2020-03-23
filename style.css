@@ -168,14 +168,14 @@ ul {
 	font-size: 20px;
 }
 
-img{
+img.Pictures{
 	border-radius: 30%;
 	/*padding-right: 30px;*/
 	padding:1px;
 	border:1px solid #021a40;
 }
 
-img:hover {
+img.Pictures:hover {
 	background: darkgreen;
 	color: #fff;
 }
