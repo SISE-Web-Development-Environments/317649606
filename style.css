@@ -46,7 +46,7 @@ h1:before {
 	font-size: 65px;
 }
 #Pics{
-	margin-left: 8%;
+	margin-left: 5%;
 
 }
 
@@ -108,29 +108,6 @@ nav {
 	transform: translateY(-50%) rotate(-35deg);
 }
 
-/*nav:before {*/
-/*	position: absolute;*/
-/*	content: '';*/
-/*	border-top: 10px solid darkcyan;*/
-/*	border-right: 10px solid darkcyan;*/
-/*	border-left: 10px solid transparent;*/
-/*	border-bottom: 10px solid transparent;*/
-/*	top: 100%;*/
-/*	left: 0;*/
-/*}*/
-
-/*nav:after {*/
-/*	position: absolute;*/
-/*	content: '';*/
-/*	border-top: 10px solid darkcyan;*/
-/*	border-left: 10px solid darkcyan;*/
-/*	border-right: 10px solid transparent;*/
-/*	border-bottom: 10px solid transparent;*/
-/*	top: 100%;*/
-/*	right: 0;*/
-/*}*/
-
-
 
 .Qst{
 	margin-right: 1.5%;
@@ -147,7 +124,6 @@ nav {
 
 img.Pictures{
 	border-radius: 30%;
-	/*padding-right: 30px;*/
 	padding:1px;
 	border:1px solid #021a40;
 }
@@ -157,10 +133,7 @@ img.Pictures:hover {
 	color: #fff;
 }
 
-/*#LikeButton{*/
-/*	position: relative;*/
-/*	z-index: -1;*/
-/*}*/
+
 
 
 
