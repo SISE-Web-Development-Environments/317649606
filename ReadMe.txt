@@ -1,6 +1,7 @@
 Welcome to my webpage!!
 
 In the page you can find some information about me and other stuff specified below.
+You can open the webpage by Double-click the index.html file or by copy the url given at the bottom to your web browser.
 
 At the beginning of the page you can see a toobar, with it you can navigate to the section of the page you are interested to visit.
 
